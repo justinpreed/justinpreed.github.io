@@ -1,0 +1,61 @@
+body {
+    background-image: url("../img/dog-playing.jpg");
+    background-size: cover;
+}
+
+h1{
+	font-family: Courier New, Courier, monospace ;
+	color: #3F3F40;
+	padding-left: 45px;
+ 	margin-bottom: 0px;
+
+}
+#slogan{
+	font-family: Courier New, Courier, monospace ;
+	font-size: 18px;
+	color: #3F3F40;
+	padding-left: 45px;
+	margin-top: 10px;
+	font-weight: 700
+
+}
+hr{
+	margin-top: 10px;
+	margin-left: 45px;
+	width: 340px;
+	color: #3F3F40;
+}
+
+#line1{
+	font-family: Courier New, Courier, monospace ;
+	font-size: 18px;
+	color: #3F3F40;
+	padding-left: 45px;
+	margin-top: 10px;
+	font-weight: 550
+
+}
+#line2{
+	font-family: Courier New, Courier, monospace ;
+	font-size: 16px;
+	color: #3F3F40;
+	padding-left: 45px;
+	margin-top: 10px;
+}
+#footer {
+	text-align: right;
+  	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:70px;
+	width:100%;
+	background:#000;
+}
+a {
+	color: #FFF;
+	margin-right: 20px;
+	margin-top: 40px;
+	font-family: "Courier New", monospace;
+	font-size: 18px;
+	text-decoration: none;
+}
