@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Vast+Shadow);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100);
+
+
+body {
+    background-image: url("../img/dog-playing.jpg");
+    background-size: cover;
+}
+
+h1{
+	font-family: 'Vast Shadow', cursive ;
+	color: #3F3F40;
+	margin-top: 15px;
+	margin-left: 15px;
+ 	margin-bottom: 0px;
+
+}
+hr{
+	float; left;
+	margin-top: 0px;
+	margin-left: 15px;
+	width: 428px;
+	color: #3F3F40;
+}
+#slogan{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 25px;
+	color: #3F3F40;
+	margin: 0px 0px 5px 15px;
+	font-weight: 600
+
+}
+#slogan2{
+	font-family: 'Alegreya Sans', sans-serif;
+	line-height: 1.5em;
+	font-size: 25px;
+	color: #3F3F40;
+	margin-left: 15px;
+	margin-top: 0px;
+	font-weight: 600
+}
+#footer {
+	text-align: right;
+  	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:50px;
+	width:100%;
+	background:#000;
+	opacity: 0.75;
+}
+#contact {
+	margin-top: 10px;
+	margin-right: 20px;
+}
+a{
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #FFF;
+	font-size: 22px;
+	text-decoration: none;
+	font-weight: 800px;
+}
