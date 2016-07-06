@@ -1,0 +1,159 @@
+@import 'https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat|Roboto';
+
+/* High Level styling */
+#container {
+	margin: 0 auto;
+	max-width: 1400px;
+}
+h1 {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	font-size: 6.9vw;
+	font-weight: 100;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+}
+ul {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-left: 20px;
+    width: 60px;
+}
+li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.title_blue {
+	background-color: #1f9b9c;
+}
+.title_coral{
+	background-color: #e16855;
+}
+.content {
+	background-color: #FFF;
+}
+.title_blue h1, .title_coral h1{
+	margin-top: 250px;
+}
+
+/* intro section */
+#intro_header {
+		color: #1f9b9c;
+		margin: 10px auto;
+}
+#intro_nav{
+	color: #e16855;
+	margin-bottom: 30px;
+}
+
+img {
+	display: block;
+	height: 25.0vw;
+	width: 25.0vw;
+	margin: 40px auto;
+	border-radius: 30px 90px 15px;
+}
+body {
+	background-color: #292726;
+}
+#intro {
+	width: 550px;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+header {
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #e16855;
+	text-align: center;
+}
+
+
+
+/* About section */
+.about {
+	height: 100vh;
+
+}
+.about .title_blue {
+	float:left;
+	height: 100%;
+	width: 49%;
+	margin-right: 20px;
+}
+.about .content {
+	float: left;
+	height: 100%;
+	width: 49%;
+}
+.about .content p {
+	padding: 2.5em 3em;
+}
+
+
+/* Resume section */
+.resume {
+	height: 100vh;
+}
+.resume .content {
+	float:left;
+	height: 100%;
+	width: 49%;
+	margin-right: 20px;
+}
+.resume .content p {
+	padding: 2.5em 3em;
+}
+.resume .title_coral {
+	background-color: #e16855;
+	float: left;
+	height: 100%;
+	width: 49%;
+}
+
+/* Contact section */
+.contact {
+	height: 73vh;
+}
+.contact h1 {
+	margin-top: 150px;
+}
+.contact .title_blue {
+	float:left;
+	height: 100%;
+	width: 49%;
+	margin-right: 20px;
+}
+.contact .content {
+	float: left;
+	height: 100%;
+	width: 49%;
+}
+.contact .content p {
+	padding: 2.5em 3em;
+}
+
+
+.thanks {
+	height: 180px;
+}
+.thanks h1 {
+	margin-top: 20px;
+	color: #e16855;
+	font-size: 8vw;
+}
+span {
+	color: #1f9b9c;
+}
